@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1467277435718
+Build-Jdk: 1.7.0_95
+Built-By: sgutierr
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel :: Demo :: Camel-JMS-JDBC:: DataSource
+Bundle-SymbolicName: com.cgd.camel.camel-jms-jdbc.datasource
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Service: javax.sql.DataSource;osgi.jndi.service.name="jdbc/postgr
+ esds";datasource.name=POSTGRESQL
+Import-Package: javax.sql,org.osgi.service.blueprint;version="[1.0.0,2.0
+ .0)",org.postgresql.ds
+Tool: Bnd-1.50.0
